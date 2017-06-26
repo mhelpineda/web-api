@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Image API | &copy; 2017 Mhel Pineda</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+</head>
+<body>
+<div class="main">
+	<div class="container">
+		<section class="header">
+			<h1>Web API Application</h1>
+			<!-- Button fetch animals data -->
+		  	<a id="btn-animals" class="btn-fetch btn-animals" href="#">
+		  		<span>Animals</span>
+		  	</a>
+		  	<!-- Button fetch Fruits and Vegie data -->
+		  	<a id="btn-fruit-vegie" class="btn-fetch btn-fruit-veg" href="#">
+		  		<span>Fruit &amp; Veg</span>
+		  	</a>
+	  	</section>
+	  	<!-- Main content area -->
+	  	<section class="content">
+	  		<!-- Fetched data wrapper -->
+			<div id="content"></div>
+	  		<!-- Modal wrapper -->
+			<div id="modal" ></div>
+			<!-- Image loader -->
+			<img id="loader" src="images/loader.gif">
+		</section>
+	</div>
+</div>
+<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
